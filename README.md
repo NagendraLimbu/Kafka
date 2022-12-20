@@ -15,3 +15,6 @@ git push -u origin main
 
 # Before git push
  git push --set-upstream origin main
+ 
+ # to resolve issue "Git refusing to merge unrelated histories on rebase"
+ git pull origin branchname --allow-unrelated-histories
