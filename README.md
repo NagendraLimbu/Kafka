@@ -12,3 +12,6 @@ git push -u origin main
 git remote add origin git@github.com:NagendraLimbu/Kafka-Producer.git
 git branch -M main
 git push -u origin main
+
+# Before git push
+ git push --set-upstream origin main
